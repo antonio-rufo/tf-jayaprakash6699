@@ -15,4 +15,5 @@ variable "environment" {
 variable "region" {
   description = "The AWS region the state should reside in."
   type        = string
+  default     = "us-west-2"
 }
